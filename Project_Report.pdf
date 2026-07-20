@@ -1,0 +1,161 @@
+Project Report
+Intelligent Book Recommendation System using Text Mining and Machine Learning
+Abstract
+
+The rapid growth of online bookstores and digital libraries has made it increasingly difficult for users to discover books matching their interests. Traditional keyword-based search systems often fail to capture semantic relationships between books. This project develops a Content-Based Book Recommendation System using Text Mining and Machine Learning techniques. The system preprocesses textual information, extracts numerical features using TF-IDF, computes cosine similarity, and recommends similar books through an interactive interface. The project demonstrates the complete machine learning pipeline including data preprocessing, feature extraction, recommendation generation, evaluation, and visualization.
+
+Chapter 1
+Introduction
+
+Recommendation systems are widely used in e-commerce, streaming platforms, and digital libraries to improve user experience. A Content-Based Recommendation System recommends items based on their textual characteristics rather than user ratings.
+
+This project recommends books using:
+
+Book Description
+Genres
+Author
+Publisher
+
+The recommendations are generated using TF-IDF Vectorization and Cosine Similarity.
+
+Chapter 2
+Problem Statement
+
+Users often struggle to discover books that match their interests because of the vast amount of available content.
+
+The objective is to build an intelligent recommendation engine capable of identifying semantically similar books based on textual information.
+
+Chapter 3
+Objectives
+Load a book dataset
+Perform data cleaning
+Conduct Exploratory Data Analysis
+Preprocess textual data
+Generate TF-IDF vectors
+Compute cosine similarity
+Recommend Top-N similar books
+Build an interactive interface
+
+Chapter 4
+Dataset
+
+Dataset Name:
+
+book_dataset.csv
+
+Important attributes
+
+Title
+Author
+Genres
+Description
+Publisher
+Ratings Count
+Reviews Count
+
+Chapter 5
+Methodology
+Data Cleaning
+Missing value handling
+Duplicate removal
+Data normalization
+Text Preprocessing
+Lowercase conversion
+Tokenization
+Stop-word removal
+Lemmatization
+Feature Engineering
+
+Two techniques were used.
+
+Bag of Words
+
+Converts text into word frequency vectors.
+
+TF-IDF
+
+Assigns importance weights to words based on frequency and rarity.
+
+Similarity Measurement
+
+Cosine Similarity calculates similarity between TF-IDF vectors.
+
+Chapter 6
+Exploratory Data Analysis
+
+The following visualizations were created.
+
+Genre Distribution
+Top Authors
+Ratings Distribution
+Word Cloud
+Recommendation Statistics
+
+Chapter 7
+Recommendation Engine
+
+Algorithm
+
+User selects a book.
+Combined text is created.
+TF-IDF vectors are generated.
+Cosine similarity matrix is computed.
+Similar books are ranked.
+Top-N recommendations are displayed.
+Chapter 8
+Results
+
+The recommendation system successfully recommends books based on textual similarity.
+
+Example
+
+Input
+
+Harry Potter and the Sorcerer's Stone
+
+Output
+
+Harry Potter and the Chamber of Secrets
+Harry Potter and the Prisoner of Azkaban
+Fantastic Beasts and Where to Find Them
+Percy Jackson and the Lightning Thief
+Chapter 9
+Evaluation
+
+Evaluation Metrics
+
+Cosine Similarity Score
+Recommendation Quality
+Semantic Similarity
+
+Advantages
+
+Simple
+Fast
+Interpretable
+
+Limitations
+
+Cannot recommend unseen preferences
+Does not use user ratings
+Chapter 10
+Conclusion
+
+The Intelligent Book Recommendation System successfully demonstrates the application of Text Mining and Machine Learning in personalized recommendation systems. The use of TF-IDF and Cosine Similarity enables effective content-based recommendations while providing an interactive interface suitable for practical use.
+
+Future Scope
+Deep Learning Recommendation
+BERT Embeddings
+Sentence Transformers
+Hybrid Recommendation
+Collaborative Filtering
+Web Deployment
+Mobile Application
+References
+Scikit-learn Documentation
+NLTK Documentation
+Pandas Documentation
+NumPy Documentation
+Goodreads Dataset
+Kaggle Book Dataset
+Python Documentation
