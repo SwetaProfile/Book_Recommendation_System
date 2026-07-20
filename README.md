@@ -54,9 +54,16 @@ Book_Recommendation_System/
 ├── Project_Report.pdf
 │
 ├── images/
-│   ├── genre_distribution.png
-│   ├── wordcloud.png
-│   ├── recommendation_output.png
+│   ├──correlation_heatmap.png
+│   ├──description_length.png
+│   ├──language_distribution.png
+│   ├──missing_values.png
+│   ├──ratings_distribution.png
+│   ├──reviews_distribution.png
+│   ├──top_authors.png
+│   ├──top_genres.png
+│   ├──top_publishers.png
+│   ├──wordcloud.png
 │
 └── screenshots/
     ├── interface.png
@@ -70,7 +77,7 @@ Book_Recommendation_System/
 Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/book-recommendation-system.git
+git clone https://github.com/SwetaProfile/Book_Recommendation_System
 ```
 
 Install dependencies
@@ -92,7 +99,7 @@ jupyter notebook
 Open
 
 ```
-Book_Recommendation_System.ipynb
+2025aiml053_TextMining_MiniProject.ipynb
 ```
 
 Run all cells from top to bottom.
